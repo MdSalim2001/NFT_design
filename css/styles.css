@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 1440px;
+  height: 810px;
+  font-family: "Outfit", sans-serif;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  margin: auto;
+  margin-top: 105px;
+  margin-bottom: 105px;
+  height: 600px;
+  width: 350px;
+  border-radius: 4%;
+  box-shadow: 20px 30px rgb(13, 25, 43), -20px 30px rgb(13, 25, 43),
+    50px 60px #0d1a2d, -50px -60px #0d1a2d, -50px 60px #0d1a2d,
+    50px -60px #0d1a2d;
+  padding-top: 30px;
+}
+.img {
+  width: 100%;
+  /* margin-top: 20px;
+  margin-left: 25px; */
+  border-radius: 5%;
+}
+.box:hover .gif {
+  opacity: 1;
+}
+.img:hover {
+  opacity: 0.7;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  display: relative;
+  left: 25px;
+  opacity: 1;
+
+  border-radius: 5%;
+  background-color: hsl(178, 100%, 50%);
+  align-items: center;
+  margin-left: 25px;
+}
+.box:hover {
+  color: red;
+  opacity: 1;
+}
+.equilibrium {
+  color: white;
+  margin-left: 25px;
+}
+.equilibrium:hover {
+  color: hsl(178, 100%, 50%);
+}
+.sen {
+  color: hsl(215, 51%, 70%);
+  margin-left: 25px;
+}
+.eth {
+  margin-left: 25px;
+  display: inline-block;
+  width: 15px;
+  position: relative;
+  top: 5px;
+}
+.value {
+  display: inline-block;
+  margin-left: 5px;
+  color: hsl(178, 100%, 50%);
+}
+.time {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.clock {
+  margin-left: 95px;
+  width: 23px;
+  position: relative;
+  top: 5px;
+}
+hr {
+  width: 85%;
+  background-color: hsl(215, 32%, 27%);
+  height: 1.3px;
+  border: none;
+}
+.pic {
+  width: 35px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.wiz {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  position: relative;
+  bottom: 11px;
+  left: 13px;
+}
+.own {
+  color: hsl(0, 0%, 100%);
+}
+.own:hover {
+  color: hsl(178, 100%, 50%);
+}
+.gif {
+  position: absolute;
+  width: 8%;
+  opacity: 0;
+  left: 703px;
+  top: 263px;
+}
